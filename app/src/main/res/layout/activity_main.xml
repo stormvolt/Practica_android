@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="212dp"
+        android:layout_height="59dp"
+        android:text="@string/saludo"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.157"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="163dp"
+        android:layout_height="60dp"
+        android:background="#4D009688"
+        android:text="@string/boton"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
